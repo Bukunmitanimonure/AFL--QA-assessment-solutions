@@ -7,11 +7,7 @@ function isPalindrome (str) {
         reversedStr += str[i]
     }
 
-    if (str === reversedStr) {
-        return true;
-    }
-
-    return false;
+    return str === reversedStr;
 }
 
 const str = "civic";

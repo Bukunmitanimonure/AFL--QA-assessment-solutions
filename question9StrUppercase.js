@@ -11,4 +11,4 @@ console.log(response);
 
 // unit test
 const errorMsg = "string is not in upper case"
-console.assert(response === "HELLO WORLD!", "%o", { response, errorMsg });
+console.assert(response == "HELLO WORLD!", "%o", { response, errorMsg });

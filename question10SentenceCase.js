@@ -15,4 +15,4 @@ console.log(response);
 
 // unit test
 const errorMsg = "string is not in sentence case"
-console.assert(response === "Hello World!", "%o", { response, errorMsg });
+console.assert(response == "Hello World!", "%o", { response, errorMsg });
